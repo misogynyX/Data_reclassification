@@ -9,7 +9,7 @@ Reclassification article.csv for training NLP model
 
 
 
-# 목표
+## 목표
 
 ------
 
@@ -20,7 +20,7 @@ Reclassification article.csv for training NLP model
 5. index 번호를 모은 text를 공유해주시면 감사하겠습니다.
 
 
-# 방법
+## 방법
 
 ------
 
@@ -29,7 +29,7 @@ Reclassification article.csv for training NLP model
 3. 오분류처리 대상은 `label == 1` 이고 `tags != gender` 인 기사입니다.
 
 
-# 여성 문제를 다루는 기사 기준 (논의 필요)
+## 여성 문제를 다루는 기사 기준 (논의 필요)
 
 ------
 
