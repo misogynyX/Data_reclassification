@@ -4,7 +4,7 @@
 
 NLP 모델을 학습시키기 위한 데이터셋 재정비 를 목표로 하는 저장소입니다.
 
-Reclassification article.csv for training NLP model
+Reclassification `articles.csv` for training NLP model
 
 
 
@@ -13,8 +13,8 @@ Reclassification article.csv for training NLP model
 
 1. NLP 모델의 목표는 input 기사가 여성문제를 다루는 기사인지(1) 아닌지(0) 구별하는 것입니다.
 2. 모델을 훈련시키기 위해서는 기사 ` text`와 해당 텍스트가 여성문제를 다루는지 아닌지(0/1) 표시한 ` label ` 으로 구성된 데이터셋이 필요합니다.
-3. 해당 데이터셋은 `article.csv` 를 활용합니다.
-4. 필요한 작업은 `article.csv` 에서 여성문제를 다루는 기사라고 레이블링`1 ` 된 기사 중에서 여성문제를 다루고 있지 않은 기사의 label을` 0 ` 으로 고치는 것입니다.
+3. 해당 데이터셋은 `articles.csv` 를 활용합니다.
+4. 필요한 작업은 `articles.csv` 에서 여성문제를 다루는 기사라고 레이블링`1 ` 된 기사 중에서 여성문제를 다루고 있지 않은 기사의 label을` 0 ` 으로 고치는 것입니다.
 5. 재분류가 필요한 index 번호를 모아 드라이브의 error_idxs 에 저장해주세요.▶ [link](https://docs.google.com/document/d/1dteU0zapKPONB46V2cLxLFW_3IQRKUGj7CVi8N1_a0o/edit?usp=sharing) 
 
 
@@ -23,7 +23,7 @@ Reclassification article.csv for training NLP model
 ## 방법
 
 
-1. article.csv 를 다운받아 본인의 google drive 에 저장합니다.
+1. `articles.csv` 를 다운받아 본인의 google drive 에 저장합니다.
 2. 오분류처리.ipynb 을 이용하여 오분류된 기사의 index 번호를 모아서 공유해주세요.
 3. 오분류처리 대상은 `label == 1` 이고 `tags != gender` 인 기사입니다.
 
