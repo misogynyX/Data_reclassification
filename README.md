@@ -23,7 +23,7 @@ Reclassification `articles.csv` for training NLP model
 ## 방법
 
 
-1. `articles.csv` 를 다운받아 본인의 google drive 에 저장합니다.
+1. `articles.csv` 를 다운받아 본인의 google drive 에 저장합니다. [articles.csv 다운 받기] (https://misogynyx.s3.ap-northeast-2.amazonaws.com/done-it-again-ml/articles.csv )
 2. 오분류처리.ipynb 을 이용하여 오분류된 기사의 index 번호를 모아서 공유해주세요.
 3. 오분류처리 대상은 `label == 1` 이고 `tags != gender` 인 기사입니다.
 
